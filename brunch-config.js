@@ -56,7 +56,7 @@ exports.config = {
       ignore: [/web\/static\/vendor/]
     },
     sass: {
-    mode: "native" // This is the important part!
+    mode: "native" 
     }
   },
 
