@@ -18,6 +18,7 @@ defmodule Agilebible.Router do
 
     get "/", PageController, :index
     get "/content/:id", ContentController, :index
+    get "/react", ReactController, :index
   end
 
   # Other scopes may use custom stacks.
