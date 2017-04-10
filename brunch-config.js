@@ -51,11 +51,14 @@ exports.config = {
 
   // Configure your plugins
   plugins: {
+    sass: {
+    mode: "native"
+    },
     babel: {
       presets: ["es2015", "react"],
       // Do not use ES6 compiler in vendor code
       ignore: [/web\/static\/vendor/]
-    }
+    }    
   },
 
   modules: {
@@ -69,5 +72,5 @@ exports.config = {
     // Whitelist the npm deps to be pulled in as front-end assets.
     // All other deps in package.json will be excluded from the bundle.
     whitelist: ["phoenix", "phoenix_html", "react", "react-dom"]
-  }
+}
 };
