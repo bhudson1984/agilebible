@@ -24,7 +24,7 @@ import ReactDOM from "react-dom"
 
 class ReactApp extends React.Component {
   render() {
-    return (<h1>React Sandbox</h1>)
+    return (<h1>React Sandbox!!!!!</h1>)
   }
 }
 
